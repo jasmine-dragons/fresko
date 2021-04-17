@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "create-react-app": "^4.0.3"
+    "create-react-app": "^4.0.3",
+    "react-webcam": "^5.2.3"
   }
 }
