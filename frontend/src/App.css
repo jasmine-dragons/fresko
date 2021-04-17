@@ -1,38 +1,83 @@
-.App {
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.container {
+  margin: 5px;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+}
+
+.capture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.capture video {
+  margin-bottom: 10px;
+}
+
+.capture button {
+  width: 150px;
+  height: 41px;
+  background-color: #e407afc2;
+  border: 1px solid pink;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+}
+
+.capture button:hover {
+  background-color: #ca0fcaa6;
+}
+
+.results {
+  margin-top: 40px;
+}
+.results .selected {
+  border: 2px solid gold;
+  animation: moveIt 5s infinite;
+}
+
+@keyframes moveIt {
+  25% {border: 4px solid rgb(240, 202, 36);}
+  50% {border: 4px solid rgb(211, 177, 24);}
+  100% {border: 4px solid rgb(179, 150, 24);}
+}
+
+.results .food {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.results .food li {
+  padding: 15px 0px 0px 15px;
+}
+
+.results .food .img {
+  border-radius: 50%;
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+}
+
+.results .food .name {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gaugechart {
+  color: black;
 }
