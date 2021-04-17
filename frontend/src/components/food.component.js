@@ -15,8 +15,8 @@ const Food = (props) => {
                   label === mostMatched.label ? "selected" : null
                 }`}
                 src={
-                  label === "No Match"
-                    ? "./images/No.png"
+                  label === "no"
+                    ? "./images/no.png"
                     : `./images/${label}.png`
                 }
                 alt={label}
