@@ -22,5 +22,5 @@ The model at a basic level works well and could be used to distinguish things, e
 We learned more about machine learning models and how the data we feed it can affect end result we are looking for. We learned about how machine learning models work and the difference between supervised and unsupervised learning, and put these to practice. We also tried implementing this rudimentarily with Tensorflow but due to a lack of data we found it very difficult.
 
 ## What's next for fresko
-Train, train, train. We would like to train the model much more on various things. These include on more types of fruit and products such as cheese. We would also like to help it detect more niche differences between ripeness levels to provide a stronger use need so that people can be more precise when their food will spoil.
+Train, train, train. We would like to train the model much more on various things. These include on more types of fruit and products such as cheese. We would also like to help it detect more niche differences between ripeness levels to provide a stronger use need so that people can be more precise when their food will spoil. A mobile app would also allow us to give users much more accesibilty to use our platform. 
 
