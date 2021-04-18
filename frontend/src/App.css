@@ -79,4 +79,19 @@ body {
 
 .gaugechart {
   color: black;
+  text-align: center;
+  padding-left: 5%;
+  margin-top: 60%;
+  width: 100%;
+}
+
+.description {
+  color: #d17b0f;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.classification {
+  font-size: 30px;
+  margin-bottom: 5%;
 }

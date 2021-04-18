@@ -7,10 +7,9 @@ const Chart = (props) => {
   const confidence = parseFloat(data.confidence.toFixed(2));
   console.log(confidence)
   return (
-    <div>
-      <h3>Classification Confidence: {label}</h3>
+    <div className="gaugechart">
+      <h3 className="classification">Classification: {label}</h3>
       <GaugeChart
-        className="gaugechart"
         id="gauge-chart3"
         nrOfLevels={3}
         colors={["#FF5F6D", "#FFC371", "rgb(26 202 26)"]}
@@ -19,9 +18,10 @@ const Chart = (props) => {
         textColor="black"
       />
 
-      {label === 'fresh apple' ? 
-      <p>lasts 2-4 weeks if kept in a refrigerator</p> 
-      : <p>this apple is rotten! </p>} 
+      {label === 'fresh apple' ?
+      <p className="description">Lasts 2-4 weeks if kept in a refrigerator</p>
+      : label === 'rotten apple' ? <p className="description">This apple is rotten! </p>
+      : <p className="description">Please point your camera at a fruit </p>} 
     </div>
   );
 };
