@@ -22,14 +22,14 @@
     border-radius: .75rem;
     font: 'Basic';
     font-size: 1.25rem;
-    transition: .75s;   
+    transition: .75s;
     cursor: pointer;
 }
 
-a { 
-    color: #d17b0f; 
+a {
+    color: #d17b0f;
     text-decoration: none;
-} 
+}
 
 .about-button:hover {
     background-color: #D17B0F;
