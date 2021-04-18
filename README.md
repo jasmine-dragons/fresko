@@ -9,7 +9,7 @@ Our app is a early level implementation of a quality of food detector to help di
 ## How we built it
 We used machine learning model through Google's cloud API we were able to train a model that could help detect fresh vs spoiled food.
 
-![tech stack](https://github.com/jasmine-dragons/fresko/raw/main/frontend/public/tech%20stack.png)
+![tech stack](https://github.com/jasmine-dragons/fresko/raw/main/frontend/public/tech%20stack.png)  
 *Our tech stack*
 
 ![image](https://user-images.githubusercontent.com/66970460/115134852-a37bb080-9fc8-11eb-8de5-18767dae21a3.png)
