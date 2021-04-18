@@ -12,6 +12,10 @@ We used machine learning model through Google's cloud API we were able to train 
 ![tech stack](https://github.com/jasmine-dragons/fresko/raw/main/frontend/public/tech%20stack.png)
 *Our tech stack*
 
+![image](https://user-images.githubusercontent.com/66970460/115134852-a37bb080-9fc8-11eb-8de5-18767dae21a3.png)
+![image](https://user-images.githubusercontent.com/66970460/115134878-e9387900-9fc8-11eb-9593-ee63e7fd44ab.png)
+
+
 ## Challenges we ran into
 Finding enough pictures to train a good model was difficult. With more time and access to other sample data it would be easier to get more pictures and as such result in a better model.
 
