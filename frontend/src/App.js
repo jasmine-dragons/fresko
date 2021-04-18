@@ -4,7 +4,6 @@ import { StyleReset } from 'atomize';
 import NavBar from './components/navigation.component';
 import WebCam from './components/webcam.component'
 
-
 import "./App.css";
 
 

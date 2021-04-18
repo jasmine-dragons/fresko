@@ -18,6 +18,10 @@ const Chart = (props) => {
         percent={confidence}
         textColor="black"
       />
+
+      {label === 'fresh apple' ? 
+      <p>lasts 2-4 weeks if kept in a refrigerator</p> 
+      : <p>this apple is rotten! </p>} 
     </div>
   );
 };
