@@ -1,0 +1,37 @@
+
+.navigation-bar {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 5vw;
+    height: 7vh;
+    width: auto;
+}
+
+.about-button {
+    background-color: white;
+    color: #d17b0f;
+    margin-right: 10vh;
+    padding: 1.5vh 1.25vw 1.5vh 1.25vw;
+    border-radius: .75rem;
+    font: 'Basic';
+    font-size: 1.25rem;
+    transition: .75s;
+}
+
+.about-button:hover {
+    background-color: #D17B0F;
+    color: white;
+}
+
+/* bg="warning700"
+hoverBg="warning800"
+rounded="circle"
+p={{ r: "1.5rem", l: "1rem" }}
+shadow="3"
+hoverShadow="4" */

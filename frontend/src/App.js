@@ -2,9 +2,11 @@ import React, { useEffect, useRef, useState } from "react";
 import ml5 from "ml5";
 import Loader from 'react-loader-spinner';
 import useInterval from '@use-it/interval';
+import { StyleReset } from 'atomize';
 
 import Food from './components/food.component';
 import Chart from './components/chart.component';
+import NavBar from './components/navigation.component';
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./App.css";
@@ -48,39 +50,43 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <Loader
-        type="Watch"
-        color="#00BFFF"
-        height={200}
-        width={200}
-        visible={!loaded}
-        style={{display:'flex', justifyContent:'center', marginTop:'30px' }}
-      />
-      <div className="upper">
-        <div className="capture">
-          <video
-            ref={videoRef}
-            style={{ transform: "scale(-1, 1)" }}
-            width="1000"
-          />
-          {loaded && (
-            <button onClick={() => toggle()}>
-              {start ? "Stop" : "Start"}
-            </button>
+    <div>
+      <StyleReset />
+      <NavBar/>
+      <div className="container">
+        <Loader
+          type="Watch"
+          color="#00BFFF"
+          height={200}
+          width={200}
+          visible={!loaded}
+          style={{display:'flex', justifyContent:'center', marginTop:'30px' }}
+        />
+        <div className="upper">
+          <div className="capture">
+            <video
+              ref={videoRef}
+              style={{ transform: "scale(-1, 1)" }}
+              width="1000"
+            />
+            {loaded && (
+              <button onClick={() => toggle()}>
+                {start ? "Stop" : "Start"}
+              </button>
+            )}
+          </div>
+          {result.length > 0 && (
+            <div>
+              <Chart data={result[0]} />
+            </div>
           )}
         </div>
         {result.length > 0 && (
-          <div>
-            <Chart data={result[0]} />
+          <div className="results">
+            <Food data={result} />
           </div>
         )}
       </div>
-      {result.length > 0 && (
-        <div className="results">
-          <Food data={result} />
-        </div>
-      )}
     </div>
   );
 }
