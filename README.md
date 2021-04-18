@@ -1,3 +1,5 @@
+![fresko](https://github.com/jasmine-dragons/fresko/raw/main/frontend/public/logo.png)
+
 ## Inspiration
 Going to the store and getting getting a bad apple, a grainy watermelon, or poor quality produce can very easily ruin your day. Furthermore, this increases the food waste that groceries end up creating. This unfortunate event occurs your options dwindle your options result to just wasting your hard-earned money you spent on the produce. Simultaneously it wastes our Earth's resources and people's time.
 
@@ -6,6 +8,9 @@ Our app is a early level implementation of a quality of food detector to help di
 
 ## How we built it
 We used machine learning model through Google's cloud API we were able to train a model that could help detect fresh vs spoiled food.
+
+![tech stack](https://github.com/jasmine-dragons/fresko/raw/main/frontend/public/tech%20stack.png)
+*Our tech stack*
 
 ## Challenges we ran into
 Finding enough pictures to train a good model was difficult. With more time and access to other sample data it would be easier to get more pictures and as such result in a better model.
