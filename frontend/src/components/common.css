@@ -11,18 +11,25 @@
     padding-left: 5vw;
     height: 7vh;
     width: auto;
+    cursor: pointer;
 }
 
 .about-button {
     background-color: white;
-    color: #d17b0f;
+    /* color: #d17b0f; */
     margin-right: 10vh;
     padding: 1.5vh 1.25vw 1.5vh 1.25vw;
     border-radius: .75rem;
     font: 'Basic';
     font-size: 1.25rem;
-    transition: .75s;
+    transition: .75s;   
+    cursor: pointer;
 }
+
+a { 
+    color: #d17b0f; 
+    text-decoration: none;
+} 
 
 .about-button:hover {
     background-color: #D17B0F;

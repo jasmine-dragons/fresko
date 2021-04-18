@@ -5,8 +5,8 @@ import { Button, Icon } from 'atomize';
 const NavBar = () => {
     return (
         <div className="navigation-bar">
-            <img className="logo" src='/logo.png'/>
-            <div className="about-button">
+            <img onClick={() => window.location.href='/'}className="logo" src='/logo.png'/>
+            <div onClick={() => window.location.href='/About'} className="about-button">
                 About
             </div>
 
